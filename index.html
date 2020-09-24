@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
   <script defer src="./script.js"></script>
 </head>
@@ -14,20 +17,37 @@
   <div class="container">
 
     <h1 id="header">lumsden.digital</h1>
-    
+
     <div class="section">
       <div id="main-img">
         <div class="profile">
           <h2 class="name">Ruaidhri Lumsden</h2>
-          <h2 class="profession">Analyst / Developer</h2>          
-          <a href="#proj-container"><h3 class="btn">Projects <i class="fas fa-chevron-down"></i></h3></a>
+          <h2 class="profession">Analyst / Developer</h2>
+          <a href="#proj-container">
+            <h3 class="btn">Projects <i class="fas fa-chevron-down"></i></h3>
+          </a>
         </div>
       </div>
     </div>
 
-    <div class="section">
+    <div id="about" class="section">
       <h2 class="section-header">About me</h2>
-      <p id="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus accusamus repellat adipisci eius nulla iure neque, odit debitis magnam laudantium ullam sit. Velit laborum, tempore et beatae nesciunt labore praesentium.</p>
+      <p>
+        Hi, my name's Ruaidhri and I'm an information analyst and web developer. I currently work for <a
+          href="https://hereweare.org.uk/"> Here
+          (Care Unbound ltd.)</a>, primarily working with large and complex <strong>SQL Server</strong> datasets,
+        fulfilling a multitude of reporting and systems requirements for the <a
+          href="https://sussexmskpartnershipcentral.co.uk/">Sussex
+          MSK Partnership</a> to serve the patients of Sussex on behalf of the NHS.
+      </p>
+      <p>
+        I'm passionate about <strong>Javascript</strong>, and I find immense satisfaction in making my designs
+        materialize on the screen. I'm a determined and eager learner, and am particularly enthusiastic about
+        <strong>React</strong>.
+      </p>
+      <p>
+        If you'd like to find out more, please feel free to <a href="#contact">contact me.</a>
+      </p>
     </div>
 
 
@@ -67,95 +87,87 @@
 
     <div id="proj-container" class="section">
       <h2 class="section-header">Projects</h2>
-      <div class="proj-grid">      
+      <div class="proj-grid">
+
         <div class="proj-card">
           <h3 class="proj-title">Star Wars Quiz</h3>
           <div class="proj-img">
-            <img 
-              src="./img/james-pond-riEYPSKxoTw-unsplash (1).jpg" 
-              alt=""
-              class="proj-img">
+            <img src="./img/james-pond-riEYPSKxoTw-unsplash (1).jpg" alt="" class="proj-img">
           </div>
           <p>A quick quiz built with React and dynamic APIs to test your knowledge of Star Wars character homeworlds</p>
           <nav class="proj-links">
             <div>
-              <a href="https://github.com/Lumsden-Digital/Star-Wars-Homeworld-Quiz" class="proj-link"><i class="fab fa-github"></i><span>Github</span></a>
+              <a href="https://github.com/Lumsden-Digital/Star-Wars-Homeworld-Quiz" class="proj-link"><i
+                  class="fab fa-github"></i><span>Github</span></a>
             </div>
             <div>
-              <a href="https://swapi-quiz.netlify.app/" class="proj-link"><i class="fas fa-globe"></i><span>Visit the site</span></a>
+              <a href="https://swapi-quiz.netlify.app/" class="proj-link"><i class="fas fa-globe"></i><span>Visit the
+                  site</span></a>
             </div>
           </nav>
         </div>
-        <!-- <div class="proj-card">
-          <h3 class="proj-title">Transition Bude</h3>
-          <div class="proj-img">
-            <img 
-              src="./img/jake-oates-Zb8_PrD3-q4-unsplash.jpg" 
-              alt=""
-              class="proj-img">
-          </div>
-        </div> -->
+        <!--proj-card-->
+
         <div class="proj-card">
           <h3 class="proj-title">Brighton XR Samba</h3>
           <div class="proj-img">
-            <img 
-              src="./img/zAlistair.jpg" 
-              alt=""
-              class="proj-img">
+            <img src="./img/zAlistair.jpg" alt="" class="proj-img">
           </div>
-          <p>An app built using React for sambistas to use as a quick reference, with mp3s and tunesheets, for their beats</p>
+          <p>An app built using React for sambistas to use as a quick reference, with mp3s and tunesheets, for their
+            beats</p>
           <nav class="proj-links">
             <div>
-              <a href="https://github.com/Lumsden-Digital/xrsamba-react-app" class="proj-link"><i class="fab fa-github"></i><span>Github</span></a>
+              <a href="https://github.com/Lumsden-Digital/xrsamba-react-app" class="proj-link"><i
+                  class="fab fa-github"></i><span>Github</span></a>
             </div>
             <div>
-              <a href="https://www.brightonxrsamba.co.uk/" class="proj-link"><i class="fas fa-globe"></i><span>Visit the site</span></a>
+              <a href="https://www.brightonxrsamba.co.uk/" class="proj-link"><i class="fas fa-globe"></i><span>Visit the
+                  site</span></a>
             </div>
           </nav>
         </div>
-        <!-- <div class="proj-card">
-          <h3 class="proj-title">KPI Adjustment</h3>
-          <div class="proj-img">
-            <img 
-              src="./img/kpi_img.PNG" 
-              alt=""
-              class="proj-img">
-          </div>
-        </div> -->
-      </div>
-    </div>
+        <!--proj-card-->
 
-    <footer id="footer" class="section">      
-      <section>
+      </div>
+      <!--proj-grid-->
+    </div>
+    <!--proj-container-->
+
+    <footer id="footer" class="section">
+      <div id="contact">
         <h2 class="section-header">Contact</h2>
-        <div class="contact">
-          <dl>
-            <div>
-              <dt>Phone</dt>
+
+        <div class="contact-content">
+          <div>
+            <dl>
+              <dt><strong>Phone</strong></dt>
               <dd>(+44) 07506 712 099</dd>
-            </div>
-            <hr>
-            <div>            
-              <dt>Email</dt>
+            </dl>
+            <dl>
+              <dt><strong>Email</strong></dt>
               <dd><a href="#">ruaidhri@lumsden.digital</a></dd>
-            </div>
-          </dl>
-          <ul class="icons">          
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            </dl>
+          </div>
+
+          <ul class="icons contact-content">
+            <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
           </ul>
         </div>
-      </section>
+        <!--contact-content-->
 
-      <p id="copyright">&copy; Ruaidhri Lumsden 2020</p>
-      
+      </div>
+
+
     </footer>
 
+    <p id="copyright">&copy; Ruaidhri Lumsden 2020</p>
 
-    
-      
+
+
 
 
   </div>
 </body>
+
 </html>
