@@ -62,6 +62,7 @@ a:active {
   font-weight: lighter;
   /* text-transform: uppercase; */
   font-size: calc(17px + 2.8vw);
+  font-size: calc(17px + 1.5vw);
   letter-spacing: 0.025rem;
 }
 
@@ -107,6 +108,7 @@ a:active {
   color: var(--bg-primary);
   text-transform: uppercase;
   font-size: calc(16px + 2vw);
+  font-size: calc(16px + 0.8vw);
 }
 
 #name {
@@ -124,6 +126,7 @@ a:active {
 
 #profession {
   font-size: calc(14px + 0.8vw);
+  font-size: calc(14px + 0.5vw);
   font-weight: 200;
   color: var(--lght-text-primary);
 }
@@ -409,17 +412,16 @@ dt {
   }
 }
 
-@media screen and (min-width: 3000px) {
-  #header {
+@media screen and (min-width: 800px) {
+  /* #header {
     font-size: calc(17px + 1.5vw);
-  }
+  } */
 
-  .profile > * {
+  /* .profile > * {
     font-size: calc(16px + 0.8vw);
-  }
+  } */
 
-  #name {
-    /* max-width: em; */
+  /* #name {
     color: var(--lght-text-primary);
     font-family: "Montserrat";
     font-style: normal;
@@ -428,14 +430,13 @@ dt {
     letter-spacing: 0.065em;
     color: #eeeeee;
     width: 100%;
-    /* white-space: nowrap; */
-  }
+  } */
 
-  #profession {
+  /* #profession {
     font-size: calc(14px + 0.5vw);
     font-weight: 200;
     color: var(--lght-text-primary);
-  }
+  } */
 
   .profile h3 {
     font-size: calc(10px + 0.2vw);
