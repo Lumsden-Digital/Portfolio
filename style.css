@@ -47,11 +47,11 @@ a:active {
   padding-bottom: 2rem;
 }
 
-.section > p {
+.section>p {
   text-shadow: none;
 }
 
-.section > p > a {
+.section>p>a {
   color: var(--text-link);
   font-weight: bold;
   text-decoration: underline;
@@ -100,7 +100,7 @@ a:active {
   justify-content: space-between;
 }
 
-.profile > * {
+.profile>* {
   text-decoration: none;
   margin: 5px 0;
   text-align: center;
@@ -188,7 +188,7 @@ a:active {
 
 .skills-card {
   display: flex;
-  margin: 2rem 0;
+  margin: 2rem 0.5rem;
   padding: 1rem;
   flex-direction: column;
   align-items: center;
@@ -198,11 +198,11 @@ a:active {
   box-shadow: 0.1em 0.2em 0.3em grey;
 }
 
-.skills-card > * {
+.skills-card>* {
   background: none;
 }
 
-.skills-card > h3 {
+.skills-card>h3 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: calc(15px + 0.5vw);
@@ -210,7 +210,7 @@ a:active {
   letter-spacing: 0.01rem;
 }
 
-.skills-card > i {
+.skills-card>i {
   color: #4d4d4d;
 }
 
@@ -225,7 +225,7 @@ a:active {
   line-height: 1.1em;
 }
 
-.skill-list > * {
+.skill-list>* {
   background: none;
   color: #4d4d4d;
 }
@@ -276,7 +276,7 @@ a:active {
   cursor: pointer;
 }
 
-.proj-card > h3,
+.proj-card>h3,
 p,
 i,
 span {
@@ -288,7 +288,7 @@ span {
   color: var(--drk-text-secondary);
 }
 
-.proj-card > p,
+.proj-card>p,
 i,
 span {
   font-size: small;
@@ -296,7 +296,7 @@ span {
   margin: 0.5em;
 }
 
-.proj-card > div > span {
+.proj-card>div>span {
   margin: 0;
 }
 
@@ -310,15 +310,16 @@ span {
   justify-content: space-around;
   align-items: center;
 }
-.proj-links > div {
+
+.proj-links>div {
   margin: 0.5em 0.5em;
 }
 
-.proj-links > div {
+.proj-links>div {
   background: none;
 }
 
-.proj-links > div > * {
+.proj-links>div>* {
   margin-top: 0.3rem;
   display: inline-block;
 }
@@ -395,7 +396,7 @@ dt {
     width: 90%;
     padding: 1rem 0 0.8rem 0;
     background-color: var(--bg-secondary);
-    transition: "transform" 0.2s;
+    transition: "transform"0.2s;
   }
 
   .proj-img {
